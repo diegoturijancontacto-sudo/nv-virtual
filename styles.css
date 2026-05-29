@@ -6,6 +6,7 @@
   --muted: #b9c2f2;
   --brand: #9f7bff;
   --brand-dark: #7858ff;
+  --gallery-image-height: 260px;
 }
 
 * {
@@ -167,6 +168,18 @@ ul {
   color: #d6c9ff;
 }
 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: var(--gallery-image-height);
+  object-fit: cover;
+}
+
 footer {
   width: min(1100px, 92%);
   margin: 0 auto;
@@ -178,7 +191,8 @@ footer {
   .hero-content,
   .three,
   .two,
-  .contact-grid {
+  .contact-grid,
+  .gallery-grid {
     grid-template-columns: 1fr;
   }
 }
