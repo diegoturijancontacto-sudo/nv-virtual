@@ -6,6 +6,7 @@
   --muted: #b9c2f2;
   --brand: #9f7bff;
   --brand-dark: #7858ff;
+  --gallery-image-height: 260px;
 }
 
 * {
@@ -174,7 +175,7 @@ ul {
 }
 
 .gallery-grid img {
-  height: 260px;
+  height: var(--gallery-image-height);
   object-fit: cover;
 }
 
