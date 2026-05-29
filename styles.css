@@ -175,6 +175,7 @@ ul {
 }
 
 .gallery-grid img {
+  width: 100%;
   height: var(--gallery-image-height);
   object-fit: cover;
 }
