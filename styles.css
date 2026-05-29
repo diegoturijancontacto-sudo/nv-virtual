@@ -85,7 +85,7 @@ h2 {
   padding: 0.65rem 1rem;
   border-radius: 10px;
   text-decoration: none;
-  color: white;
+  color: var(--text);
   background: linear-gradient(120deg, var(--brand), var(--brand-dark));
   font-weight: 600;
 }
