@@ -55,7 +55,7 @@ img {
 h1 {
   font-size: clamp(2rem, 5vw, 3.4rem);
   margin: 0.3rem 0 1rem;
-  line-height: 1.12;
+  line-height: 1.2;
 }
 
 h2 {
@@ -160,6 +160,10 @@ ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.7rem;
+}
+
+.contact-grid a {
+  color: #d6c9ff;
 }
 
 footer {
