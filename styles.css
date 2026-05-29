@@ -167,6 +167,17 @@ ul {
   color: #d6c9ff;
 }
 
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  height: 260px;
+  object-fit: cover;
+}
+
 footer {
   width: min(1100px, 92%);
   margin: 0 auto;
@@ -178,7 +189,8 @@ footer {
   .hero-content,
   .three,
   .two,
-  .contact-grid {
+  .contact-grid,
+  .gallery-grid {
     grid-template-columns: 1fr;
   }
 }
